@@ -8,3 +8,16 @@
   width: 100%;
   height: 500px;
 }
+
+#icon {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+#settings {
+ margin-top: 17.2rem;
+}
+
+.space-top {
+  margin-top: 0.8rem;
+}

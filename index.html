@@ -10,28 +10,71 @@
 <body>
   
   <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand mb-0 h1" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">
+            <img id="icon" src="/assets/icons/casa_branco.png" alt="HOME">
+            HOME
+            <span class="sr-only">(HOME)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <img id="icon" src="/assets/icons/ecologia_branco.png" alt="PLANTS">
+            HOME
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <img id="icon" src="/assets/icons/aquario_branco.png" alt="AQURIO">
+            HOME
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" id="" class="nav-link ">
+            <img id="icon" src="/assets/icons/settings_branco.png" alt="SETTINGS">
+            HOME
+          </a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
   <div class="container-fluid">
     <div class="row">
       <nav class="col-md-2 d-none d-md-block bg-light sidebar">
         <div class="sidebar-sticky">
-          <ul class="nav flex-column">
+          <ul class="nav flex-column nav-tabs space-top">
             <li class="nav-item">
               <a href="#" class="nav-link active">
+                <img id="icon" src="/assets/icons/casa.png" alt="HOME">
                 HOME
-                <span class="sr-only">(current)</span>
+                <span class="sr-only">(HOME)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link active">HOME</a>
+              <a href="#" class="nav-link space-top">
+                <img id="icon" src="/assets/icons/ecologia.png" alt="PLANTS">
+                HOME
+              </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link active">HOME</a>
+              <a href="#" class="nav-link space-top">
+                <img id="icon" src="/assets/icons/icon.png" alt="HOME">
+                HOME
+              </a>
             </li>
-            <li class="nav-item"></li>
-            <li class="nav-item"></li>
+            <li class="nav-item">
+              <a href="#" id="settings" class="nav-link ">
+                <img id="icon" src="/assets/icons/settings.png" alt="HOME">
+                HOME
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -55,7 +98,11 @@
   <script src="https://www.amcharts.com/lib/4/core.js"></script>
   <script src="https://www.amcharts.com/lib/4/charts.js"></script>
   <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
-  <script src="/node_modules/bootstrap/js/" ></script>
+  <script src="/node_modules/bootstrap/js/dist/index.js" ></script>
+  <script src="/node_modules/bootstrap/js/src/index.js" ></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="/js/solidGauge.js"></script>
 
 </body>
